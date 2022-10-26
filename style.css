@@ -1,10 +1,28 @@
  body{
-  background-image: url(FINAL\ SAV\ LOGO.png);
-  background-size: cover;
+  background-image: url(background1.jpg);
+    font-size: 60pcx;
+    background-color: linear-gradient(skyblue,green,yellow);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
  }
 nav{
   text-align: center;
+  background-color: whitesmoke;
+
+  
 }
+footer {
+  background-color: #6661ac;
+  color: #ede9fc;
+  display: inline-block;
+  size: 20px;
+  height: 20px;
+  width: 20;
+}
+
+  
 
  .dropbtn {
     margin-top: 1.5cm;
