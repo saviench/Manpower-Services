@@ -1,12 +1,9 @@
  body {
-   background-image: url(FINAL\ WHITE.png);
-   font-size: 60pcx;
    background-color: linear-gradient(skyblue, green, yellow);
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center;
    background-size: COVER;
-   font-family: Arial, Helvetica, sans-serif;
  }
 
 
@@ -76,8 +73,7 @@ footer {
  
 
 
- @media screen and (max-width: 600px) {
-
+ @media screen and (max-width: 700px) {
  nav {
    display: none;
  }
@@ -218,7 +214,7 @@ footer {
  }
 
 
- @media screen and (max-width: 300px) {
+ @media screen and (max-width: 700px) {
    span.psw {
      display: block;
      float: none;
@@ -242,6 +238,7 @@ footer {
   position: fixed;
   height: 100%;
   overflow: auto;
+  cursor: pointer;
   
 }
 
@@ -268,7 +265,7 @@ div.content {
   height: 1000px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .sidebar {
     width: 100%;
     height: auto;
