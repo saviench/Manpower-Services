@@ -17,10 +17,10 @@
     <div style="float:left;"><img src="final logo3.png" height="140" /></div> 
     
     <div class="dropdown">
-      <button class="dropbtn">Home</button>
+     <a href="index.html"> <button class="dropbtn">Home</button></a>
       <div class="dropdown-content">
         <a href="aboutus.html">About us</a>
-        <a href="contact.html">Contact us</a></div>
+        <a href="contactus.html">Contact us</a></div>
     </div>
 
     <div class="dropdown">
@@ -39,11 +39,10 @@
     <div class="dropdown">
       <button class="dropbtn">Hiring</button>
       <div class="dropdown-content">
-        <a href="#">Search jobs</a>
-        <a href="#">Apply now</a></div>
+        <a href="apply.html">Apply now</a></div>
     </div>
     <div style="float: right;" class="dropdown">
-      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+      <button class="dropbtn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
     </div>
   </nav>
   
@@ -66,6 +65,7 @@
        <button type="submit">Login</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
+        <span class="text" style="margin-left: 100px;">No Account yet? <a href="#">Signup</a></span>
       </label>
     </div>
 
@@ -127,7 +127,20 @@ window.onclick = function(event) {
 </div>
   
 </body>
-
-
+<footer>
+  <div class="sidebar">
+    <a class="active" href="index.html">Home</a>
+    <a href="manpower.html">Manpower</a>
+    <a href="janitorial.html">Janitorial</a>
+    <a href="client products.html">Client</a>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+       <p class="card-text">Contact: <img height="30px"src="telephone.jpg"> (032)-4228336 <img height="30px" src="cellphone.jpg">  (+63)-9092183504    //   Social Media: <img height="30px" src="facebook.png">   <img height="30px" src="GitHub-Mark.png"> <img height="30px" src="youtube.png">    //             Links: <a href="index.html">   <img height="30px" src="home.png"></a>  <a href="">   <img height="30px" src="client icon.png"></a>   <a href="contact.html">   <img height="30px" src="contact icon.jpg"></a> </p>
+      </div>
+    </div>
+  </div>
+  </footer>
 
 </html>
