@@ -19,7 +19,7 @@ footer {
  /* >>>>>>>>>>>>>>>>>>>Navbar css<<<<<<<<<<<<<<<<<<<<<<<<< */
  nav {
    text-align: center;
-   background-color:whitesmoke;
+   background-color:rgb(230, 238, 243);
  }
 
  .dropbtn {
@@ -60,7 +60,7 @@ footer {
  }
 
  .dropdown-content a:hover {
-   background-color: #da0a0a
+   background-color: #178ccf;
  }
 
  .dropdown:hover .dropdown-content {
@@ -68,7 +68,7 @@ footer {
  }
 
  .dropdown:hover .dropbtn {
-   background-color: #da0a0a;
+   background-color: #178ccf;
  }
  
 
@@ -233,13 +233,13 @@ footer {
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 1px;
   background-color: #178ccf;
   position: fixed;
-  height: 100%;
+  height: 10%;
   overflow: auto;
   cursor: pointer;
-  
+
 }
 
 .sidebar a {
@@ -250,7 +250,7 @@ footer {
 }
  
 .sidebar a.active {
-  background-color: #178ccf;
+  background-color:   ;
   color: white;
 }
 
@@ -280,4 +280,116 @@ div.content {
     text-align: center;
     float: none;
   }
+}
+
+.footer-clean {
+  padding:50px 0;
+  background-color:rgb(230, 238, 243);
+  color:#4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+/* >>>>>>>>>>>>>>>>>>>footer<<<<<<<<<<<<<<<<<<<<<<<<< */
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+/* >>>>>>>>>>>>>>>>>>>footer<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>services<<<<<<<<<<<<<<<<<<<<<<<<< */
+.how-section1{
+  margin-top:-15%;
+  padding: 10%;
+}
+.how-section1 h4{
+  color: #ffa500;
+  font-weight: bold;
+  font-size: 30px;
+}
+.how-section1 .subheading{
+  color: #3931af;
+  font-size: 20px;
+}
+.how-section1 .row
+{
+  margin-top: 10%;
+}
+.how-img 
+{
+  text-align: center;
+}
+.how-img img{
+  width: 40%;
 }

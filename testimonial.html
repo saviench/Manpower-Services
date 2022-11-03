@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="style.css" />
   <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
   <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 </head>
 
 <body>
@@ -24,10 +25,9 @@
     </div>
 
     <div class="dropdown">
-      <button class="dropbtn">services</button>
-      <div class="dropdown-content">
-        <a href="manpower.html">Manpower</a>
-        <a href="janitorial.html">Janitorial</a></div>
+      <a href="services.html"><button class="dropbtn">services</button></a>
+     
+       
     </div>
 
     <div class="dropdown">
@@ -127,21 +127,47 @@ window.onclick = function(event) {
 </div>
   
 </body>
-<footer>
-  <div class="sidebar">
-    <a class="active"onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a>
-    <a href="index.html">Home</a>
-    <a href="janitorial.html">Services</a>
-    <a href="client products.html">Client</a>
+<div class="footer-clean">
+  <footer>
+      <div class="sidebar">
+          <a  class="active"onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a>
+          <a  href="index.html">Home</a>
+          <a  href="services.html">Services</a>
+          <a  href="client products.html">Client</a>
+        </div>
 
-  </div>
-  <div class="col">
-    <div class="card">
-      <div class="card-body">
-       <p class="card-text">Contact: <img height="30px"src="telephone.jpg"> (032)-4228336 <img height="30px" src="cellphone.jpg">  (+63)-9092183504    //   Social Media: <img height="30px" src="facebook.png">   <img height="30px" src="GitHub-Mark.png"> <img height="30px" src="youtube.png">    //             Links: <a href="index.html">   <img height="30px" src="home.png"></a>  <a href="">   <img height="30px" src="client icon.png"></a>   <a href="contact.html">   <img height="30px" src="contact icon.jpg"></a> </p>
+
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-sm-4 col-md-3 item">
+                  <h3>Services</h3>
+                  <ul>
+                      <li><a href="services.html">Manpower</a></li>
+                     
+                      
+                  </ul>
+              </div>
+              <div class="col-sm-4 col-md-3 item">
+                  <h3>Company</h3>
+                  <ul>
+                      <li><a href="aboutus.html">About us</a></li>
+                      <li><a href="contactus.html">Contact us</a></li>
+                  
+                  </ul>
+              </div>
+              <div class="col-sm-4 col-md-3 item">
+                  <h3>Client</h3>
+                  <ul>
+                      <li><a href="testimonial.html">Testimonial</a></li>
+                      <li><a href="client products.html">Products and Services</a></li>
+                  
+                  </ul>
+              </div>
+              <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                  <p class="copyright">Saviench Manpower Services © 2022</p>
+              </div>
+          </div>
       </div>
-    </div>
-  </div>
-  </footer>
+</footer>
 
 </html>
